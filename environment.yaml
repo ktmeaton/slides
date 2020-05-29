@@ -1,0 +1,6 @@
+name: slides-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pre_commit==2.3.0
