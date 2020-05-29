@@ -4,3 +4,4 @@ channels:
   - defaults
 dependencies:
   - pre_commit==2.3.0
+  - nodejs==14.3.0

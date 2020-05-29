@@ -17,3 +17,11 @@ An edited setup guide based on [Chen Hui Jing's Guide](https://chenhuijing.com/b
   ```bash
   git checkout --orphan gh-pages
   ```
+
+## Reveal.js
+
+1. Install Grunt
+
+  ```bash
+  npm install -g grunt-cli
+  ```
