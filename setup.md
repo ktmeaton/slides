@@ -14,9 +14,7 @@ An edited setup guide based on [Chen Hui Jing's Guide](https://chenhuijing.com/b
 
 1. Create the gh-pages branch
 
-  ```bash
-  git checkout --orphan gh-pages
-  ```
+Just use the gh-pages setup in GitHub Settings, from master branch.
 
 ## Reveal.js
 
