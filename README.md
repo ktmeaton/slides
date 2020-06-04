@@ -9,5 +9,5 @@ pre-commit install
 
 ## Slide Decks
 
-1. [Test PDF](https://ktmeaton.github.io/slides/test_pdf)
+1. [NCBImeta](https://ktmeaton.github.io/slides/ncbimeta/ncbimeta_2019-09-16.pdf)
 1. [Test Reveal.js](https://ktmeaton.github.io/slides/test_reveal)
