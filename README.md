@@ -2,10 +2,21 @@
 
 ## Installation
 
+Create a conda environment with dependencies.
+
 ```bash
 conda env create -f environment.yaml
+conda activate slides-env
 pre-commit install
 ```
+
+Install reveal.js as a submodule.
+
+```bash
+git submodule add https://github.com/hakimel/reveal.js.git
+```
+
+Add the 
 
 ## Slide Decks
 
