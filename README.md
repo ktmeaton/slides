@@ -2,22 +2,32 @@
 
 ## Installation
 
-Create a conda environment with dependencies.
+### NodeJS
 
 ```bash
 conda env create -f environment.yaml
 conda activate slides-env
-pre-commit install
 ```
 
-Install reveal.js as a submodule.
+### Reveal.js
 
 ```bash
 git submodule add https://github.com/hakimel/reveal.js.git
 cd reveal.js && git checkout tags/4.1.0 && npm install && cd ..
 ```
 
+### Reveal Plugins
+
 Add reveal.js-menu repo copy to reveal.js plugins as ```menu```.
+
+### Jekyll
+
+```bash
+bundle install
+bundle exec jekyll build --verbose
+bundle exec jekyll serve
+```
+
 
 ## Slide Decks
 
