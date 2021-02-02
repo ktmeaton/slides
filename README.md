@@ -14,9 +14,8 @@ Install reveal.js as a submodule.
 
 ```bash
 git submodule add https://github.com/hakimel/reveal.js.git
+cd reveal.js && git checkout tags/4.1.0 && npm install && cd ..
 ```
-
-Add the 
 
 ## Slide Decks
 
