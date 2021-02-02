@@ -17,6 +17,8 @@ git submodule add https://github.com/hakimel/reveal.js.git
 cd reveal.js && git checkout tags/4.1.0 && npm install && cd ..
 ```
 
+Add reveal.js-menu repo copy to reveal.js plugins as ```menu```.
+
 ## Slide Decks
 
 ### 2021-02-05 BEAP
