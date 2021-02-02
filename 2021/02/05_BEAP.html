@@ -20,9 +20,10 @@
                 <!-- Title Slide-->
 
                 <section id="title-slide">
-					<a href="https://revealjs.com">
+					<!-- <a href="https://revealjs.com">
 						<img src="./plague-phylo-logo.png" alt="reveal.js logo" style=" margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
-                    </a>
+                    </a> -->
+                    <h2>Plague Phylogeography</h2>  
                     <p class="author"><a href="https://ktmeaton.github.io/">Katherine Eaton</a></p>
                     <p class="author"><small>Bioinformatics, Evolution, Anthropology, and Population Genetics</small></p>
                     <p class="date"><small>5 Feburary 2021</small></p>    
@@ -110,7 +111,12 @@
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ]
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ],
+                menu: {
+                    themes: true,
+                    themesPath: '../../reveal.js/dist/theme/',
+                    transitions: true,
+                }
             });        
 		</script>
 	</body>
