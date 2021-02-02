@@ -20,7 +20,6 @@
                 <!-- Title Slide-->
 
                 <section id="title-slide">
-                    <span class="menu-title" style="display: none">Title</span>        
 					<!-- <a href="https://revealjs.com">
 						<img src="./plague-phylo-logo.png" alt="reveal.js logo" style=" margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
                     </a> -->
@@ -28,9 +27,7 @@
                     <p class="author"><a href="https://ktmeaton.github.io/">Katherine Eaton</a></p>
                     <p class="author"><small>Bioinformatics, Evolution, Anthropology, and Population Genetics</small></p>
                     <p class="date"><small>5 Feburary 2021</small></p>    
-                    <p><small><a href="https://bit.ly/3rgx5sq">https://bit.ly/3rgx5sq</a></small></p>        <aside class="notes">
-                        Shhh, these are your private notes 📝
-                    </aside>        
+                    <p><small><a href="https://bit.ly/3rgx5sq">https://bit.ly/3rgx5sq</a></small></p>                 
 				</section>                
                             
                 <!-- <p class="author">Katherine Eaton</p>
@@ -41,7 +38,6 @@
                 
                 <!-- Table of Contents-->
                 <section id="toc">
-                    <span class="menu-title" style="display: none">Table of Contents</span>     
                     <h2>Table of Contents</h2>       
                     <center>                        
                         <ul>         
@@ -54,74 +50,36 @@
                 </section>      
  
                 <!-- Introduction Section-->
-                <section>
-				    <section id="introduction">
-                    <span class="menu-title" style="display: none">Introduction</span>  
+				<section id="introduction">
 					<h2>Introduction</h2>
 					<p>
 						Here's an introduction statement and figure!
-                    </p>
-                    </section>                    
-                    <section>
-                        <span class="menu-title" style="display: none">More Introduction</span>       
-                        <h2>More Introduction</h2>
-                        <p>This is one of very popular <a href="http://en.wikipedia.org/wiki/Eric_Cantona" rel="external">Eric Cantona</a> quotes:</p>
-                        <blockquote>
-                            “When the seagulls follow the trawler, it's because they think sardines will be thrown into the sea. Thank you very much.”
-                        </blockquote>                     
-                    </section>
+					</p>
                 </section>   
                 
 				<!-- Big Data Section-->
 				<section id="big-data">
 					<section>
-                        <span class="menu-title" style="display: none">Big Data</span>       
 						<h2>Big Data Section</h2>
 						<p>A figure and a question.</p>
-						<p>Navigate down for table and spreadmap.</p>
+						<p>Navigate down for this section. TEST</p>
                     </section>
                     <!-- Subsection Something-->
 					<section>
-                        <span class="menu-title" style="display: none">Table</span>
-						<h2>Table</h2>
-                        <br>
-                            <table>
-                                <thead><tr>
-                                    <th>Ciudad</th>
-                                    <th>Año de fundación</th>
-                                    <th>Población</th>
-                                </tr></thead>
-                                <tbody><tr>
-                                    <td>Gijón</td>
-                                    <td>Siglo V a. C.</td>
-                                    <td>274290</td>
-                                </tr>
-                                <tr>
-                                    <td>Oviedo</td>
-                                    <td>761</td>
-                                    <td>221870</td>
-                                </tr></tbody>
-                            </table>
+						<h2>Big Data Subsection</h2>
+						<p>Some more big data content</p>
                     </section> 
-
-                    <!-- Subsection Iframe-->
-                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/mugration?d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
-                        <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
-                    </section>                    
-
                 </section>
                     
 				<!-- Spread Map Section-->
 				<section id="spread-map">
 					<section>
-                        <span class="menu-title" style="display: none">Spread Map</span>
 						<h2>Spread Map Section</h2>
 						<p>A figure and a question.</p>
 						<p>Navigate down for this section.</p>
                     </section>       
                     <!-- Subsection Something-->
 					<section>
-                        <span class="menu-title" style="display: none">Spread Map Subsection</span>
 						<h2>Spread Map Subsection</h2>
 						<p>Some more spread map content</p>
                     </section>  
@@ -129,7 +87,6 @@
                 
 				<!-- Conclusions Section-->
                 <section id="conclusions">
-                    <span class="menu-title" style="display: none">Conclusions</span>
                     <h2>Conclusions</h2>       
                     <center>                        
                         <ol>         
@@ -144,7 +101,6 @@
 		<script src="../../reveal.js/plugin/notes/notes.js"></script>
 		<script src="../../reveal.js/plugin/markdown/markdown.js"></script>
         <script src="../../reveal.js/plugin/highlight/highlight.js"></script>
-        <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
         <script src="../../plugin/menu/menu.js"></script>
      
 		<script>
@@ -152,12 +108,10 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-                hash: true,
-                progress: true,
-                preloadIframes: true,
+				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom],
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ],
                 menu: {
                     themes: true,
                     themesPath: '../../reveal.js/dist/theme/',
