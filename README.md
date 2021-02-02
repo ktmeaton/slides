@@ -29,3 +29,8 @@ Add reveal.js-menu repo copy to reveal.js plugins as ```menu```.
 1. [2021-02-05 BEAP](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html#/title-slide)
 1. [NCBImeta](https://ktmeaton.github.io/slides/ncbimeta/ncbimeta_2019-09-16.pdf)
 1. [BEAP](https://ktmeaton.github.io/slides/beap2020/beap_2020-01-30.pdf)
+
+## Reminders
+
+- In reveal.js, press "s" for speaker view, timer, notes.
+- In reveal.js, press "b" or "." to black out the screen to pause.

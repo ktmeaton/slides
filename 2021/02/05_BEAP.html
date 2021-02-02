@@ -28,7 +28,9 @@
                     <p class="author"><a href="https://ktmeaton.github.io/">Katherine Eaton</a></p>
                     <p class="author"><small>Bioinformatics, Evolution, Anthropology, and Population Genetics</small></p>
                     <p class="date"><small>5 Feburary 2021</small></p>    
-                    <p><small><a href="https://bit.ly/3rgx5sq">https://bit.ly/3rgx5sq</a></small></p>                 
+                    <p><small><a href="https://bit.ly/3rgx5sq">https://bit.ly/3rgx5sq</a></small></p>        <aside class="notes">
+                        Shhh, these are your private notes 📝
+                    </aside>        
 				</section>                
                             
                 <!-- <p class="author">Katherine Eaton</p>
@@ -52,12 +54,22 @@
                 </section>      
  
                 <!-- Introduction Section-->
-				<section id="introduction">
+                <section>
+				    <section id="introduction">
                     <span class="menu-title" style="display: none">Introduction</span>  
 					<h2>Introduction</h2>
 					<p>
 						Here's an introduction statement and figure!
-					</p>
+                    </p>
+                    </section>                    
+                    <section>
+                        <span class="menu-title" style="display: none">More Introduction</span>       
+                        <h2>More Introduction</h2>
+                        <p>This is one of very popular <a href="http://en.wikipedia.org/wiki/Eric_Cantona" rel="external">Eric Cantona</a> quotes:</p>
+                        <blockquote>
+                            “When the seagulls follow the trawler, it's because they think sardines will be thrown into the sea. Thank you very much.”
+                        </blockquote>                     
+                    </section>
                 </section>   
                 
 				<!-- Big Data Section-->
@@ -72,7 +84,24 @@
 					<section>
                         <span class="menu-title" style="display: none">Big Data Subsection</span>
 						<h2>Big Data Subsection</h2>
-						<p>Some more big data content</p>
+                        <br>
+                            <table>
+                                <thead><tr>
+                                    <th>Ciudad</th>
+                                    <th>Año de fundación</th>
+                                    <th>Población</th>
+                                </tr></thead>
+                                <tbody><tr>
+                                    <td>Gijón</td>
+                                    <td>Siglo V a. C.</td>
+                                    <td>274290</td>
+                                </tr>
+                                <tr>
+                                    <td>Oviedo</td>
+                                    <td>761</td>
+                                    <td>221870</td>
+                                </tr></tbody>
+                            </table>
                     </section> 
                 </section>
                     
@@ -117,7 +146,8 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
+                hash: true,
+                progress: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
                 plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom],
