@@ -20,14 +20,16 @@ cd reveal.js && git checkout tags/4.1.0 && npm install && cd ..
 
 ```bash
 mkdir plugins
-cd plugins && git submodule add https://github.com/denehyg/reveal.js-menu.git menu && cd ..
-```
+cd plugins
 
-Add reveal.js-menu repo copy to reveal.js plugins as ```menu```.
+git submodule add https://github.com/denehyg/reveal.js-menu.git menu
+
+cd ..
+```
 
 ### Jekyll
 
-```bash
+```basu
 bundle install
 bundle exec jekyll build --verbose
 bundle exec jekyll serve

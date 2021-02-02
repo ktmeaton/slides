@@ -3,5 +3,5 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pre_commit==2.3.0
-  - nodejs==14.3.0
+  - nodejs=14.3.0
+  - ruby=2.6.6
