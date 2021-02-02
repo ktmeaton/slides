@@ -18,6 +18,11 @@ cd reveal.js && git checkout tags/4.1.0 && npm install && cd ..
 
 ### Reveal Plugins
 
+```bash
+mkdir plugins
+cd plugins && git submodule add https://github.com/denehyg/reveal.js-menu.git menu && cd ..
+```
+
 Add reveal.js-menu repo copy to reveal.js plugins as ```menu```.
 
 ### Jekyll
