@@ -9,7 +9,8 @@
 
 		<link rel="stylesheet" href="../../reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
-        <link rel="stylesheet" href="../../reveal.js/dist/theme/simple.css" id="theme">
+        <link rel="stylesheet" href="../../reveal.js/dist/theme/simple.css" id="theme"> 
+        <link rel="stylesheet" href="../../plugin/title-footer/title-footer.css">   
         
         <link rel="stylesheet" href="../../css/custom.css">
 
@@ -20,8 +21,9 @@
 		<div class="reveal">
 			<div class="slides">
 
+                
                 <!-- Title Slide-->
-                <section id="title-slide">
+                <section id="title-slide" data-state="no-title-footer">
                     <span class="menu-title" style="display: none">Title</span>        
                     <h3>Plague Phylogeography</h3> 
                     <h4>Novel Synthesis and Geospatial Analysis</h4>
@@ -66,7 +68,7 @@
                 <section>
                     <!-- The Plague -->
 				    <section id="introduction">
-                    <span class="menu-title" style="display: none">The Plague</span>  
+                    <span class="menu-title" style="display: none">Introduction</span>  
 					<h2>The Plague</h2>
 					<ul>
                         <li>A zoonoses of rodents and fleas in wild reservoirs.</li>
@@ -125,52 +127,58 @@
                         <img src="./assets/guellil_2020_spread_map.png" alt="Guellil et al. 2020 Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  <div class="footer" id="footnote-problems-geospatial">
                             1. Guellil et al. (2020). <a href="https://www.pnas.org/content/117/45/28328">A genomic and historical synthesis of plague in 18th century Eurasia</a>
                         </div>                    
-                    </section>                                         
+                    </section>  
+                    
+                    <!-- Objectives -->
+                    <section>
+                        <span class="menu-title" style="display: none">Objectives</span>     
+                        <h2>Objectives</h2>                   
+                    </section>                      
                     
     
                 </section>   
                 
 				<!-- Big Data Section-->
-				<section id="big-data">
+				<section id="results-big-data">
 					<section>
-                        <span class="menu-title" style="display: none">Big Data</span>       
-						<h2>Big Data Section</h2>
-						<p>A figure and a question.</p>
-						<p>Navigate down for table and spreadmap.</p>
-                    </section>
-                    <!-- Subsection Something-->
-					<section>
-                        <span class="menu-title" style="display: none">Table</span>
-						<h2>Table</h2>
+                        <span class="menu-title" style="display: none">Results: Big Data</span>      
                         <br>
-                            <table>
-                                <thead><tr>
-                                    <th>Ciudad</th>
-                                    <th>Año de fundación</th>
-                                    <th>Población</th>
-                                </tr></thead>
-                                <tbody><tr>
-                                    <td>Gijón</td>
-                                    <td>Siglo V a. C.</td>
-                                    <td>274290</td>
-                                </tr>
-                                <tr>
-                                    <td>Oviedo</td>
-                                    <td>761</td>
-                                    <td>221870</td>
-                                </tr></tbody>
-                            </table>
+						<h2>Big Data Section</h2>
+                        <ul>
+                            <li>What are all those extra <em>Y. pestis</em> genomes?</li>
+                            <li>When/where were they collected?</li>
+                            <li>Do they add value to the analysis?</li>
+                        </ul>                                                                                 
+                        <img src="./assets/study_compare.svg" alt="Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" class="demo-logo">     
+                        
+                    </section>
+
+                    <!-- Collection Location -->
+					<section>
+                        <span class="menu-title" style="display: none">Collection Location</span>
+                        <h2>Collection Location</h2>
                     </section> 
 
-                    <!-- Subsection Iframe-->
+                    <!-- Collection Date -->
+					<section>
+                        <span class="menu-title" style="display: none">Collection Date</span>
+                        <h2>Collection Date</h2>
+                    </section>                     
+
+                    <!-- Comparative Phylogeny -->
+					<section>
+                        <span class="menu-title" style="display: none">Comparative Phylogeny</span>
+                        <h2>Comparative Phylogeny</h2>
+                    </section> 
+                    <!-- Nextstrain Phylogeny
                     <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/mugration?d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
                         <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
-                    </section>                    
+                    </section> -->                
 
                 </section>
                     
-				<!-- Spread Map Section-->
-				<section id="spread-map">
+				<!-- Geospatial Section-->
+				<section id="geospatial">
 					<section>
                         <span class="menu-title" style="display: none">Spread Map</span>
 						<h2>Spread Map Section</h2>
@@ -204,6 +212,7 @@
         <script src="../../reveal.js/plugin/highlight/highlight.js"></script>
         <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
         <script src="../../plugin/menu/menu.js"></script>
+        <script src="../../plugin/title-footer/title-footer.js"></script>
      
 		<script>
 			// More info about initialization & config:
@@ -215,7 +224,12 @@
                 preloadIframes: true,
                 slideNumber: 'c/t',
 
-				// Learn about plugins: https://revealjs.com/plugins/
+                dependencies:
+                [
+                    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
+                ],
+                // Learn about plugins: https://revealjs.com/plugins/
+                
                 plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom],
                 menu: {
                     themes: true,

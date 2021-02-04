@@ -6,3 +6,13 @@
   text-align: left;
   font-size: medium;
 }
+
+.header-old {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  background: blue;
+  color: white;
+}
