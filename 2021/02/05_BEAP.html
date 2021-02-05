@@ -124,7 +124,8 @@
                             <li>Spread maps aren't statistically constructed<small><a href="#footnote-problems-geospatial">1</a></small>.</li>
                             <li>Leading to ambiguity and uncertainty.</li>
                         </ul>     
-                        <img src="./assets/guellil_2020_spread_map.png" alt="Guellil et al. 2020 Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  <div class="footer" id="footnote-problems-geospatial">
+                        <img src="./assets/guellil_2020_spread_map.png" alt="Guellil et al. 2020 Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  
+                        <div class="footer" id="footnote-problems-geospatial">
                             1. Guellil et al. (2020). <a href="https://www.pnas.org/content/117/45/28328">A genomic and historical synthesis of plague in 18th century Eurasia</a>
                         </div>                    
                     </section>  
@@ -132,7 +133,12 @@
                     <!-- Objectives -->
                     <section>
                         <span class="menu-title" style="display: none">Objectives</span>     
-                        <h2>Objectives</h2>                   
+                        <h2>Objectives</h2>    
+                        <ul>
+                            <li>What are all those extra <em>Y. pestis</em> genomes?</li>
+                            <li>When/where were they collected?</li>
+                            <li>Do they add value to the analysis?</li>
+                        </ul>                                         
                     </section>                      
                     
     
@@ -141,15 +147,8 @@
 				<!-- Big Data Section-->
 				<section id="results-big-data">
 					<section>
-                        <span class="menu-title" style="display: none">Results: Big Data</span>      
-                        <br>
-						<h2>Results: Big Data</h2>
-                        <ul>
-                            <li>What are all those extra <em>Y. pestis</em> genomes?</li>
-                            <li>When/where were they collected?</li>
-                            <li>Do they add value to the analysis?</li>
-                        </ul>                                                                                 
-                        <img src="./assets/study_compare.svg" alt="Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;">     
+                        <span class="menu-title" style="display: none">Exploratory Analysis</span>      
+						<h1>Results</h1>    
                         
                     </section>
 
@@ -173,24 +172,54 @@
                         <span class="menu-title" style="display: none">Comparative Phylogeny</span>
                         <h2>Comparative Phylogeny</h2>
                         <img src="./assets/geo_tree.svg" alt="Genome Phylogeny" style="height: 400px; margin: 4 auto 4rem auto; background: transparent;"> 
-                    </section>           
+                    </section>  
+                    
+                    <!-- Nextstrain Phylogeny -->
+                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_major&d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
+                        <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
+                    </section>    
+                    <!-- Nextstrain Map -->
+                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_major&d=map&p=full&onlyPanels&sidebar=closed&r=province" data-background-interactive>
+                        <span class="menu-title" style="display: none">Nextstrain Map</span>
+                    </section>                                       
 
                 </section>
                     
 				<!-- Geospatial Section-->
 				<section id="geospatial">
 					<section>
-                        <span class="menu-title" style="display: none">Spread Map</span>
-						<h2>Spread Map Section</h2>
-						<p>A figure and a question.</p>
-						<p>Navigate down for this section.</p>
-                    </section>       
-                    <!-- Subsection Something-->
+                        <span class="menu-title" style="display: none">Geospatial Analysis</span>
+                        <h2>Geospatial Analysis</h2>
+                                                <ul>
+                            <li>Inspired by the Ebola phylogeography paper<small><a href="#footnote-problems-geospatial">1</a></small>.</li>
+                            <li>How to visualize a phylogeny on a map over time?</li> 
+                        </ul>     
 
-                    <!-- Nextstrain Phylogeny -->
-                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_minor&d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
-                        <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
-                    </section>
+                        <img src="./assets/spread_map_ebola.png" alt="Ebola Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  
+                        
+                        <div class="footer" id="footnote-problems-geospatial">
+                            1. Bielejec et al. (2016). <a href="https://academic.oup.com/mbe/article/33/8/2167/2579258">SpreaD3: Interactive Visualization of Spatiotemporal History...</a>
+                        </div> 
+                    </section> 
+
+					<section>
+                        <span class="menu-title" style="display: none">The Black Death</span>
+                        <h2>The Black Death</h2>
+                        <ul>
+                            <li>14th - 18th Century Europe</li>
+                        </ul>
+                        <br>
+                        <img src="./assets/guellil_2020_spread_map.png" alt="Guellil et al. 2020 Spread Map" style="height: 250px; margin: 4 auto 4rem auto; background: transparent;" >                        
+                        <img src="./assets/timetree_map_second_pandemic.svg" alt="Second Pandemic Spread Map" style="height: 250px; margin: 4 auto 4rem auto; background: transparent;" >  
+                    </section>    
+                    
+
+					<section>
+                        <span class="menu-title" style="display: none">Medievalis</span>
+                        <h2>Medievalis</h2>                      
+                        <img src="./assets/timetree_map_2_med.svg" alt="Second Pandemic Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  
+                    </section>                     
+
                 </section>    
                 
 				<!-- Conclusions Section-->
@@ -203,7 +232,13 @@
                             <li>Conclusion 2</li>
                         </ol>
                     </center>                    
-                </section>           
+                </section>    
+                
+                <section id="acknowledgements" >
+                    <span class="menu-title" style="display: none">Acknowledgements</span>
+                    <h2>Thank You!</h2>   
+                        <img src="./assets/poinar_network.png" alt="Poinar Lab Network" style="height: 460px; margin: 4 auto 4rem auto; background: transparent;" >                                    
+                </section>                 
         </div>      
 
 		<script src="../../reveal.js/dist/reveal.js"></script>
