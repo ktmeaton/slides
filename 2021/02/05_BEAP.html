@@ -59,6 +59,7 @@
                     <ul>         
                         <li><a href="#/introduction">Introduction</a></li>
                         <li><a href="#/exploratory">Exploratory Analysis</a></li>
+                        <li><a href="#/public-resource">Public Resource</a></li>                        
                         <li><a href="#/geospatial">Geospatial Analysis</a></li>
                         <li><a href="#/upcoming-work">Upcoming Work</a></li>
                     </ul>                   
@@ -145,11 +146,11 @@
     
                 </section>   
                 
-				<!-- Big Data Section-->
+				<!-- EXPLORATORY ANALYSIS-->
 				<section id="results-big-data">
 					<section>
                         <span class="menu-title" style="display: none">Exploratory Analysis</span>      
-						<h1>Results</h1>    
+						<h1>Exploratory Analysis</h1>    
                         
                     </section>
 
@@ -157,7 +158,9 @@
 					<section>
                         <span class="menu-title" style="display: none">Collection Location</span>
                         <h2>Collection Location</h2>
-                                               
+                        <p style="font-size:75%">
+                            Geocoding using <a href="https://planet.openstreetmap.org/">OpenStreeMap</a> and <a href="https://github.com/geopy/geopy">GeoPy</a>.
+                        </p>            
                         <img src="./assets/geo_map.svg" alt="Global Distribution" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;">    
                     </section> 
 
@@ -172,9 +175,19 @@
 					<section>
                         <span class="menu-title" style="display: none">Comparative Phylogeny</span>
                         <h2>Comparative Phylogeny</h2>
+                        <p style="font-size:75%">
+                            Maximum likelihood tree estimated with <a href="https://academic.oup.com/mbe/article/37/5/1530/5721363">IQTREE</a>.
+                        </p>
                         <img src="./assets/geo_tree.svg" alt="Genome Phylogeny" style="height: 400px; margin: 4 auto 4rem auto; background: transparent;"> 
                     </section>  
-                    
+
+                </section>
+                <section>
+					<section>
+                        <span class="menu-title" style="display: none">Public Resource</span>      
+						<h1>Public Resource</h1>                           
+                    </section>   
+
                     <!-- Nextstrain Phylogeny -->
                     <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_major&d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
                         <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
@@ -182,21 +195,29 @@
                     <!-- Nextstrain Map -->
                     <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_major&d=map&p=full&onlyPanels&sidebar=closed&r=province" data-background-interactive>
                         <span class="menu-title" style="display: none">Nextstrain Map</span>
-                    </section>                                       
-
-                </section>
+                    </section>
+                </section>                                       
                     
 				<!-- Geospatial Section-->
 				<section id="geospatial">
+
+                    	<section>
+                        <span class="menu-title" style="display: none">Geospatial Analysis</span>      
+						<h1>Geospatial Analysis</h1>                           
+                    </section>   
+
 					<section>
-                        <span class="menu-title" style="display: none">Geospatial Analysis</span>
-                        <h2>Geospatial Analysis</h2>
+                        <span class="menu-title" style="display: none">Spread Maps</span>
+                        <h2>Spread Maps</h2>
                                                 <ul>
-                            <li>Inspired by the Ebola phylogeography paper<small><a href="#footnote-problems-geospatial">1</a></small>.</li>
                             <li>How to visualize a phylogeny on a map over time?</li> 
+                            <li>Inspired by the Ebola phylogeography paper<small><a href="#footnote-problems-geospatial">1</a></small>.</li>
+                            <li>Discrete mugration model in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5758920/">TreeTime</a>.</li>                            
                         </ul>     
 
-                        <img src="./assets/spread_map_ebola.png" alt="Ebola Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" >  
+                        <img src="./assets/spread_map_ebola.png" alt="Ebola Spread Map" style="width: 30%; margin: 4 auto 4rem auto; background: transparent;" >  
+
+                       <img src="./assets/mugration_example.png" alt="Mugration Example" style="width: 30%; margin: 4 auto 4rem auto; background: transparent;" >                         
                         
                         <div class="footer" id="footnote-problems-geospatial">
                             1. Bielejec et al. (2016). <a href="https://academic.oup.com/mbe/article/33/8/2167/2579258">SpreaD3: Interactive Visualization of Spatiotemporal History...</a>
