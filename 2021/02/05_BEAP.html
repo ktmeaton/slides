@@ -24,7 +24,7 @@
                 
                 <!-- Title Slide-->
                 <section id="title-slide" data-state="no-title-footer">
-                    <span class="menu-title" style="display: none">Title</span>        
+                    <span class="menu-title" style="display: none">Title</span>     
                     <h3>Plague Phylogeography</h3> 
                     <h4>Novel Synthesis and Geospatial Analysis</h4>
                     <p class="author"><a href="https://ktmeaton.github.io/">Katherine Eaton</a></p>
@@ -53,7 +53,7 @@
 				</section>                
                             
                 <!-- Table of Contents-->
-                <section id="toc">
+                <section id="toc" >
                     <span class="menu-title" style="display: none">Table of Contents</span>     
                     <h2>Table of Contents</h2>                              
                     <ul>         
@@ -143,13 +143,13 @@
 					<section>
                         <span class="menu-title" style="display: none">Results: Big Data</span>      
                         <br>
-						<h2>Big Data Section</h2>
+						<h2>Results: Big Data</h2>
                         <ul>
                             <li>What are all those extra <em>Y. pestis</em> genomes?</li>
                             <li>When/where were they collected?</li>
                             <li>Do they add value to the analysis?</li>
                         </ul>                                                                                 
-                        <img src="./assets/study_compare.svg" alt="Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;" class="demo-logo">     
+                        <img src="./assets/study_compare.svg" alt="Spread Map" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;">     
                         
                     </section>
 
@@ -157,23 +157,23 @@
 					<section>
                         <span class="menu-title" style="display: none">Collection Location</span>
                         <h2>Collection Location</h2>
+                                               
+                        <img src="./assets/geo_map.svg" alt="Global Distribution" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;">    
                     </section> 
 
                     <!-- Collection Date -->
 					<section>
                         <span class="menu-title" style="display: none">Collection Date</span>
                         <h2>Collection Date</h2>
+                        <img src="./assets/geo_timeline_edit.svg" alt="Genome Timeline" style="height: 360px; margin: 4 auto 4rem auto; background: transparent;"> 
                     </section>                     
 
                     <!-- Comparative Phylogeny -->
 					<section>
                         <span class="menu-title" style="display: none">Comparative Phylogeny</span>
                         <h2>Comparative Phylogeny</h2>
-                    </section> 
-                    <!-- Nextstrain Phylogeny
-                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/mugration?d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
-                        <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
-                    </section> -->                
+                        <img src="./assets/geo_tree.svg" alt="Genome Phylogeny" style="height: 400px; margin: 4 auto 4rem auto; background: transparent;"> 
+                    </section>           
 
                 </section>
                     
@@ -186,11 +186,11 @@
 						<p>Navigate down for this section.</p>
                     </section>       
                     <!-- Subsection Something-->
-					<section>
-                        <span class="menu-title" style="display: none">Spread Map Subsection</span>
-						<h2>Spread Map Subsection</h2>
-						<p>Some more spread map content</p>
-                    </section>  
+
+                    <!-- Nextstrain Phylogeny -->
+                    <section data-background-iframe="https://nextstrain.org/community/ktmeaton/plague-phylogeography/parseTree?c=branch_minor&d=tree&p=full&onlyPanels&sidebar=closed" data-background-interactive>
+                        <span class="menu-title" style="display: none">Nextstrain Phylogeny</span>
+                    </section>
                 </section>    
                 
 				<!-- Conclusions Section-->
@@ -224,10 +224,10 @@
                 preloadIframes: true,
                 slideNumber: 'c/t',
 
-                dependencies:
-                [
-                    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
-                ],
+                //dependencies:
+                //[
+                //    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
+                //],
                 // Learn about plugins: https://revealjs.com/plugins/
                 
                 plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom],
