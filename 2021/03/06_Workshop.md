@@ -2,7 +2,12 @@
 
 ## Charts
 
-* [Plague Krona](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Krona.html)
+* [Plague Krona SVG](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Krona.svg)
+* [Plague Krona HTML](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Krona.html)
+
+    * Max Depth: 7
+    * Font Size: 40
+
 
 ## Analysis
 
