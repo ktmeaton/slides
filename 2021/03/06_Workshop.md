@@ -2,7 +2,7 @@
 
 ## Charts
 
-* [Plague Krona](https://raw.githack.com/ktmeaton/slides/master/2021/03/*06_Workshop_Plague-Krona.html)
+* [Plague Krona](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Krona.html)
 
 ## Analysis
 
