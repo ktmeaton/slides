@@ -44,4 +44,11 @@
         -o kraken2/Yersinia_pestis_Black-Death-8291.krona.html \
         -tax /home/keaton/database/Krona/taxonomy-2019-12-16/ \
         kraken2/Yersinia_pestis_Black-Death-8291.krona
+
+    Loading taxonomy...
+    Importing kraken2/Yersinia_pestis_Black-Death-8291.krona...
+    [ WARNING ]  The following taxonomy IDs were not found in the local database and were set to root (if they were recently added to NCBI, use updateTaxonomy.sh to update the local
+                    database): 1743172 2109625 1049581 1981981 644968 2036817 2183547 1826873 134962 2071623
+    Writing kraken2/Yersinia_pestis_Black-Death-8291.krona.html...
+    [ WARNING ]  Too many query IDs to store in chart; storing supplemental files in 'kraken2/Yersinia_pestis_Black-Death-8291.krona.html.files'.        
     ```

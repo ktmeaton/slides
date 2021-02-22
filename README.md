@@ -2,7 +2,7 @@
 
 ## Content
 
-- 2021-03-06 Workshop ([Notes](https://github.com/ktmeaton/slides/blob/master/2021/03/06_Workshop.md))
+- 2021-03-06 Workshop ([Notes](https://github.com/ktmeaton/slides/blob/master/2021/03/06_Workshop.md), [Plague Krona](https://github.com/ktmeaton/slides/blob/master/2021/03/06_Workshop_Plague-Krona.html))
 - 2021-02-05 BEAP ([HTML](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html), [PDF](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html?print-pdf))
 - 2020-01-30 BEAP ([PDF](https://ktmeaton.github.io/slides/beap2020/beap_2020-01-30.pdf))
 - 2019-09-16 NCBImeta ([PDF](https://ktmeaton.github.io/slides/ncbimeta/ncbimeta_2019-09-16.pdf))
