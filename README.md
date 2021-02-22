@@ -1,5 +1,12 @@
 # Slides
 
+## Content
+
+- 2021-03-06 Workshop
+- 2021-02-05 BEAP ([HTML](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html), [PDF](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html?print-pdf))
+- 2020-01-30 BEAP ([PDF](https://ktmeaton.github.io/slides/beap2020/beap_2020-01-30.pdf))
+- 2019-09-16 NCBImeta ([PDF](https://ktmeaton.github.io/slides/ncbimeta/ncbimeta_2019-09-16.pdf))
+
 ## Installation
 
 ### NodeJS
@@ -34,14 +41,6 @@ bundle install
 bundle exec jekyll build --verbose
 bundle exec jekyll serve
 ```
-
-
-## Slide Decks
-
-- 2021-03-06 Workshop
-- 2021-02-05 BEAP ([HTML](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html), [PDF](https://ktmeaton.github.io/slides/2021/02/05_BEAP.html?print-pdf))
-- 2020-01-30 BEAP ([PDF](https://ktmeaton.github.io/slides/beap2020/beap_2020-01-30.pdf))
-- 2019-09-16 NCBImeta ([PDF](https://ktmeaton.github.io/slides/ncbimeta/ncbimeta_2019-09-16.pdf))
 
 ## Reminders
 
