@@ -2,6 +2,8 @@
 
 ## Charts
 
+
+- [Brucellosis LMN01 HTML](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Brucellosis-LMN01.html)
 - [Plague Black Death SVG](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Black-Death.svg)
 - [Plague Black Death HTML](https://raw.githack.com/ktmeaton/slides/master/2021/03/06_Workshop_Plague-Black-Death.html)
     - Max Depth: 7
