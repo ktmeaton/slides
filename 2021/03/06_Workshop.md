@@ -121,3 +121,34 @@
     Writing kraken2/Yersinia_pestis_Pre-Justinian-DA101.krona.html...
     [ WARNING ]  Too many query IDs to store in chart; storing supplemental files in 'kraken2/Yersinia_pestis_Pre-Justinian-DA101.krona.html.files'.
     ```
+
+### Plague (Justinian)
+
+- BioSample: SAMN02442693
+- Strain: A120
+- DOI: https://doi.org/10.1016/S1473-3099(13)70323-2  
+
+1. Convert to fasta.
+
+    ```bash
+    samtools fasta Yersinia_pestis_Justinian-A120.bam > Yersinia_pestis_Justinian-A120.fasta
+    ```
+
+2. Taxonomic classification with Kraken.
+
+    ```bash
+    $ /home/keaton/Projects/Plague/YorkBarbican/envs/kraken2/bin/kraken2 \
+    --db /2/scratch/keaton/kraken2-microbial-fatfree/ \
+    --threads 10 \
+    --confidence 0.2  \
+    --report-minimizer-data \
+    --minimum-hit-groups 2 \
+    --output kraken2/Yersinia_pestis_Justinian-A120.output \
+    --report kraken2/Yersinia_pestis_Justinian-A120.report \
+    data/Yersinia_pestis_Justinian-A120.fasta
+
+    Loading database information... done.
+    10086461 sequences (619.14 Mbp) processed in 10.512s (57573.6 Kseq/m, 3534.03 Mbp/m).
+    477198 sequences classified (4.73%)
+    9609263 sequences unclassified (95.27%)
+    ```
