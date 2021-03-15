@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="author" content="Katherine Eaton">        
+
+		<title>BEAP 2021</title>
+
+		<link rel="stylesheet" href="../../reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="../../reveal.js/dist/theme/simple.css" id="theme"> 
+        <link rel="stylesheet" href="../../plugin/title-footer/title-footer.css">   
+        
+        <link rel="stylesheet" href="../../css/custom.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../../reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+    </head>
+	<body>              
+		<div class="reveal">
+			<div class="slides">
+
+                
+                <!-- Title Slide-->
+                <section id="title-slide" data-state="no-title-footer">
+                    <span class="menu-title" style="display: none">Title</span>     
+                    <h3>Plague Phylogeography</h3> 
+                    <h4>Novel Synthesis and Geospatial Analysis</h4>
+                    <p class="author"><a href="https://ktmeaton.github.io/">Katherine Eaton</a></p>
+                    <p class="author"><small>Poinar Lab Meeting</small></p>
+                    <p class="date"><small>5 Feburary 2021</small></p>    
+                    <p style="font-size:50%">
+                        Presentation:
+                        <a href="TBD">TBD</a> 
+                        (
+                        <a href="https://ktmeaton.github.io/slides/2021/03/23_Poinar-Lab.html">web</a>
+                        ,
+                        <a href="https://ktmeaton.github.io/slides/2021/03/23_Poinar-Lab.html?print-pdf">pdf</a>
+                        )                        
+                    </p>    
+                    <p style="font-size:50%">  
+                        Github:                  
+                        <a href="https://github.com/ktmeaton/plague-phylogeography">ktmeaton/plague-phylogeography</a>   
+                    <br><br>
+                    <a href="https://nextstrain.org/community/ktmeaton/plague-phylogeography/v0-2-4">
+						<img src="./assets/spread_map.png" alt="Spread Map" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+                    </a>          
+                    </p>                        
+                    <aside class="notes">
+                        Surpise! You found the speaking notes 📝
+                    </aside>        
+				</section>                
+                            
+                <!-- Table of Contents-->
+                <section id="toc" >
+                    <span class="menu-title" style="display: none">Table of Contents</span>     
+                    <h2>Table of Contents</h2>                              
+                    <ul>         
+                        <li><a href="#/introduction">Introduction</a></li>
+                    </ul>                   
+                </section>      
+ 
+                <!-- Introduction Section-->
+                <section>
+                    <!-- The Plague -->
+				    <section id="introduction">
+                    <span class="menu-title" style="display: none">Introduction</span>  
+					<h2>The Plague</h2>                 
+                    </section>
+   
+                </section>   
+
+                <!-- Results Section-->
+                <section>  
+				    <section id="results">
+                        <span class="menu-title" style="display: none">Results</span>  
+                        <h2>Results</h2>  
+                    </section> 
+                    
+				    <section id="tbd">
+                        <span class="menu-title" style="display: none">Ancient Plague</span>  
+                        <h2>Medieval Plague</h2>
+                        <img src="assets/geo_animate_1.PRE.gif" alt="this slowpoke moves"  width=800/>
+					</section> 
+
+                </section>              
+                                
+				<!-- Conclusions Section-->
+
+                <!-- Acknowledgements-->
+                <section id="acknowledgements" >
+                    <span class="menu-title" style="display: none">Acknowledgements</span>
+                    <h2>Thank You!</h2>   
+                        <img src="./assets/poinar_network.png" alt="Poinar Lab Network" style="height: 460px; margin: 4 auto 4rem auto; background: transparent;" >                                    
+                </section>                 
+        </div>      
+
+		<script src="../../reveal.js/dist/reveal.js"></script>
+		<script src="../../reveal.js/plugin/notes/notes.js"></script>
+		<script src="../../reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="../../reveal.js/plugin/highlight/highlight.js"></script>
+        <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
+        <script src="../../plugin/menu/menu.js"></script>
+        <script src="../../plugin/title-footer/title-footer.js"></script>
+     
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+                hash: true,
+                progress: true,
+                preloadIframes: true,
+                slideNumber: 'c/t',
+
+                //dependencies:
+                //[
+                //    { src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
+                //],
+                // Learn about plugins: https://revealjs.com/plugins/
+                
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, RevealZoom],
+                menu: {
+                    themes: true,
+                    themesPath: '../../reveal.js/dist/theme/',
+                    transitions: true,
+                }
+            });        
+		</script>
+	</body>
+</html>
