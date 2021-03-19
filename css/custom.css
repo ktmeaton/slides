@@ -16,3 +16,46 @@
   background: blue;
   color: white;
 }
+
+li {
+    font-size:14pt
+}
+
+figure {
+    display: inline-block;
+    vertical-align:top;
+	padding: 0.25em;
+	/*margin: 0 auto 1em;*/    
+}
+
+.figure img {
+    border: 1px solid #000000;    
+	/*margin: 0 auto;*/
+	display: block;
+	max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.slides {
+	counter-reset: figures;
+}
+
+.figure figcaption {
+	counter-increment: figures;
+}
+
+.figure figcaption:before {
+	content: 'Fig ' counter(figures) '. ';
+}
+
+/*
+img {
+    border: 1px solid #000000;
+    vertical-align:top;
+    margin:1px 1px"
+}
+*/
