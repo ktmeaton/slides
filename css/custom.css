@@ -18,12 +18,23 @@
 }
 
 li {
-    font-size:16pt
+    font-size:16pt;
+}
+
+table {
+    font-size:16pt;
+}
+
+img {
+    border: 1px solid #000000;    
+	margin: 15px 15px;
+	display: block;
+	max-width: 100%;
 }
 
 figure {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 	padding: 0.1em;
 	/*margin: 0 auto 1em;*/    
 }
@@ -40,7 +51,7 @@ figcaption {
     font-size: 12pt;
 }
 
-.slides {
+.reveal {
 	counter-reset: figures;
 }
 
@@ -51,11 +62,3 @@ figcaption {
 .figure figcaption:before {
 	content: 'Fig ' counter(figures) '. ';
 }
-
-/*
-img {
-    border: 1px solid #000000;
-    vertical-align:top;
-    margin:1px 1px"
-}
-*/

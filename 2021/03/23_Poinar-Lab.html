@@ -67,6 +67,11 @@
 				    <section id="introduction">
                     <span class="menu-title" style="display: none">Introduction</span>  
                     <h2>Introduction</h2> 
+                    </section>
+
+                    <section id="phylogeography">
+                    <span class="menu-title" style="display: none">Phylogeography</span>  
+                    <h2>Phylogeography</h2> 
                     <ul>
                         <li>The ancestral location of pathogens can be estimated using phylogenetics.</li>
                         <li>Geographic origin of an emerging disease (<a href="">Fig 1</a>).</li>
@@ -95,8 +100,8 @@
                         <h2>Plague</h2> 
                         <ol>
                             <li>Long history with humans (<a href="#fig-WNV">Fig 3</a>).</li>
+                            <li>Huge geographic range (every continent except Antarctica).</li>                  
                             <li>Multiple re-emergences with distinct spatial patterns (<a href="#fig-WNV">Fig 4</a>).</li>                              
-                            <li>Huge geographic range (every continent except Antarctica).</li>
                             <li>Contentious geographic origins.</li>
                         </ol>              
                         <figure class="figure" id="fig-timeline">
@@ -117,7 +122,25 @@
                     
                     <section>
                         <span class="menu-title" style="display: none">Previous Work</span>  
-                        <h2>Previous Work</h2> 
+                        <h2>Previous Work: Origins</h2> 
+                        <ul>
+                            <li>Different models come from different datasets.</li>
+                        </ul>                          
+                        <figure class="figure" id="fig-map-bronze-age">
+                            <img 
+                                src="assets/map_bronze_age_central-asia.JPG" 
+                                height="200px" 
+                            />
+                            <figcaption><a href="https://doi.org/10.1016/j.cub.2017.10.025">Dispersal model out of central Asia into Europe.</a></figcaption>
+                        </figure>                          
+                        <figure class="figure" id="fig-map-bronze-age-east-europe">
+                            <img 
+                                src="assets/map_bronze_age_east-europe.JPG" 
+                                height="200px" 
+                            />
+                            <figcaption><a href="https://doi.org/10.1016/j.cell.2018.11.005">Dispersal model out of mega-settlements in Eastern Europe.</a></figcaption>
+                        </figure>
+                        <br>                                              
                     </section>
 
                     <section>
@@ -126,26 +149,87 @@
                     </section>
 
                     <section>
-                        <span class="menu-title" style="display: none">Research Questions</span>  
-                        <h2>Research Questions</h2> 
+                        <span class="menu-title" style="display: none">Objectives</span>  
+                        <h2>Objectives</h2> 
                         <ol>
+                            <li style="font-size:24pt">Expand the global phylogeny of <em>Y. pestis</em></li>
                             <li style="font-size:24pt">Where are the ancestral locations of <em>key historic events?</em></li>
-                                <ul>
-                                    <li>MRCA</li>
-                                    <li>Pandemics 1,2,3...more?</li>
-                                </ul>
 
                             <li style="font-size:24pt">What are the patterns of global circulation?</li>
-                                <ul>
-                                    <li>Linear</li>
-                                    <li>Circular</li>
-                                </ul>
+
+                            <li style="font-size:24pt">How much uncertainty?</li>
                         </ol>
                     </section>
 
 
     
                 </section>   
+
+                <!-- Sampling Bias-->
+                <section>
+				    <section id="sampling-bias">
+                        <span class="menu-title" style="display: none">Sampling</span>  
+                        <h2>Materials and Methods</h2>    
+                    </section>
+                </section>                
+
+                <!-- Methods Section-->
+                <section>
+				    <section id="methods">
+                        <span class="menu-title" style="display: none">Materials and Methods</span>  
+                        <h2>Materials and Methods</h2>    
+                    </section>
+
+				    <section id="methods-data">
+                        <span class="menu-title" style="display: none">Data</span>  
+                        <h2>Data</h2>  
+
+                        <ul>
+                            <li>Public genome sequencing projects.</li>
+                            <li>Metadata identified with NCBImeta.</li>
+                        </ul>
+                        <table>
+                            <thead><tr>
+                                <th>Type</th>
+                                <th>N</th>
+                            </tr></thead>
+                            <tbody><tr>
+                                <td>Modern</td>
+                                <td>600</td>
+                            </tr>
+                            <tr>
+                                <td>Ancient</td>
+                                <td>60</td>
+                            </tr></tbody>
+                        </table> 
+
+                        <figure class="figure">
+                        <img src="assets/geo_map.svg" style="height: 150px">
+                        <figcaption>Geographic distribution of <em>Y. pestis</em> genomes.</figcaption>
+                        </figure>
+                        <figure class="figure">
+                        <img src="assets/geo_timeline_edit.svg" style="height: 150px">
+                        <figcaption>Temporal distribution of <em>Y. pestis</em> genomes.</figcaption>
+                        </figure>  
+                    </section>
+                        
+
+				    <section id="methods-phylogeny">
+                        <span class="menu-title" style="display: none">Phylogeny</span>  
+                        <h2>Phylogeny</h2>  
+                        <ol>
+                            <li>Data Acquisition: Download genomes from NCBI. </li>
+                            <li>Pre-processing and Alignment: nf-core/eager, snippy. </li>   
+                            <li>Phylogeny: ML IQTREE. </li>       
+                            <li>Spatiotemporal: clock model and mugration model.</li>
+                            <li>Plot!</li>           
+                        </ol>
+                    </section>                  
+                        
+
+                    </section>                                      
+                </section>
+        
 
                 <!-- Results Section-->
                 <section>  
